@@ -6,7 +6,7 @@
     docker_puid: '{{ role_archisteamfarm_puid }}'
     docker_pgid: '{{ role_archisteamfarm_pgid }}'
     docker_dir_config: '{{ role_archisteamfarm_dir }}/config'
-    docker_dir_plugins: '{{ role_archisteamfarm_dir }}/config'
+    docker_dir_plugins: '{{ role_archisteamfarm_dir }}/plugins'
     docker_network: '{{ role_archisteamfarm_network }}'
 
 - name: Create config directory
