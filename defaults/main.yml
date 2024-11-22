@@ -1,2 +1,7 @@
 ---
-app_archisteamfarm_enabled: false
+role_archisteamfarm_image: 'docker.io/justarchi/archisteamfarm'
+role_archisteamfarm_container: 'archisteamfarm'
+role_archisteamfarm_puid: '1000'
+role_archisteamfarm_pgid: '1000'
+role_archisteamfarm_dir: '/opt/app-archisteamfarm'
+role_archisteamfarm_network: 'app-network'
